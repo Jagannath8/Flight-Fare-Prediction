@@ -322,7 +322,7 @@ def predict():
     #    'Destination_Cochin', 'Destination_Delhi', 'Destination_Hyderabad',
     #    'Destination_Kolkata', 'Destination_New Delhi']
         
-        prediction=model.predict([[
+        prediction=model3.predict([[
             Total_stops,
             Journey_day,
             Journey_month,
